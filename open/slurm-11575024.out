@@ -1,0 +1,23 @@
+WARNING torsion not specified for FiberSection
+Use either -GJ $GJ or -torsion $matTag
+
+FiberSection3d section: 1001
+==================================================
+3D RC BUILDING DATASET GENERATION WITH IDA
+==================================================
+Running IDA for 5-story building with 6.1m bays...
+Traceback (most recent call last):
+  File "/project/c_gnn_001/code/earth/open/test3.py", line 733, in <module>
+    ida_result = generator.run_ida(5, 6.1)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/c_gnn_001/code/earth/open/test3.py", line 462, in run_ida
+    self.node_coords = self.create_opensees_model(n_stories, bay_length)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/c_gnn_001/code/earth/open/test3.py", line 181, in create_opensees_model
+    self._create_elements(n_stories, bay_length, config)
+  File "/project/c_gnn_001/code/earth/open/test3.py", line 257, in _create_elements
+    self._create_column_fiber_section(sec_id, col_props)
+  File "/project/c_gnn_001/code/earth/open/test3.py", line 326, in _create_column_fiber_section
+    ops.section('Fiber', sec_id)
+opensees.OpenSeesError: See stderr output
+Process 0 Terminating

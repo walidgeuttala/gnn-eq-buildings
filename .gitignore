@@ -1,0 +1,27 @@
+# Raw data and result files
+*.xlsx
+*.V3
+*.V2_disp
+*.V2_acc
+*.V2
+*.v3
+*.v2_disp
+*.v2_acc
+*.v2
+*.png
+
+# Archives
+*.zip
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+.venv/

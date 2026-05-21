@@ -1,0 +1,19 @@
+/project/c_gnn_001/conda_envs/cuda121/lib/python3.11/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /lib64/libm.so.6: version `GLIBC_2.29' not found (required by /project/c_gnn_001/conda_envs/cuda121/lib/python3.11/site-packages/libpyg.so)
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/project/c_gnn_001/conda_envs/cuda121/lib/python3.11/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /lib64/libm.so.6: version `GLIBC_2.29' not found (required by /project/c_gnn_001/conda_envs/cuda121/lib/python3.11/site-packages/libpyg.so)
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Traceback (most recent call last):
+  File "/project/c_gnn_001/code/earth/open/test.py", line 4, in <module>
+    from torch_geometric.data import Data
+  File "/project/c_gnn_001/conda_envs/cuda121/lib/python3.11/site-packages/torch_geometric/__init__.py", line 13, in <module>
+    from .isinstance import is_torch_instance
+  File "/project/c_gnn_001/conda_envs/cuda121/lib/python3.11/site-packages/torch_geometric/isinstance.py", line 8, in <module>
+    import torch._dynamo
+  File "/project/c_gnn_001/conda_envs/cuda121/lib/python3.11/site-packages/torch/_dynamo/__init__.py", line 2, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "/project/c_gnn_001/conda_envs/cuda121/lib/python3.11/site-packages/torch/_dynamo/convert_frame.py", line 48, in <module>
+    from . import config, exc, trace_rules
+  File "/project/c_gnn_001/conda_envs/cuda121/lib/python3.11/site-packages/torch/_dynamo/trace_rules.py", line 50, in <module>
+    from .utils import getfile, hashable, NP_SUPPORTED_MODULES, unwrap_if_wrapper
+ImportError: cannot import name 'NP_SUPPORTED_MODULES' from 'torch._dynamo.utils' (/project/c_gnn_001/conda_envs/cuda121/lib/python3.11/site-packages/torch/_dynamo/utils.py)
+Process 0 Terminating

@@ -1,0 +1,17 @@
+WARNING: no current load pattern is set
+==================================================
+RC BUILDING DATASET GENERATION
+==================================================
+Traceback (most recent call last):
+  File "/project/c_gnn_001/code/earth/open/test1.py", line 386, in <module>
+    example_result = generator.run_analysis(5, 6.1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/c_gnn_001/code/earth/open/test1.py", line 230, in run_analysis
+    node_coords = self.create_opensees_model(n_stories, bay_length)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/c_gnn_001/code/earth/open/test1.py", line 123, in create_opensees_model
+    self._apply_loads(n_stories, bay_length)
+  File "/project/c_gnn_001/code/earth/open/test1.py", line 225, in _apply_loads
+    ops.load(node_id, 0, -load, 0)
+opensees.OpenSeesError: See stderr output
+Process 0 Terminating

@@ -1,0 +1,18 @@
+CrdTransf *getCrdTransf(int tag) - none found with tag: 1
+coord transfomration not found
+==================================================
+RC BUILDING DATASET GENERATION
+==================================================
+Traceback (most recent call last):
+  File "/project/c_gnn_001/code/earth/open/test1.py", line 383, in <module>
+    example_result = generator.run_analysis(5, 6.1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/c_gnn_001/code/earth/open/test1.py", line 227, in run_analysis
+    node_coords = self.create_opensees_model(n_stories, bay_length)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/c_gnn_001/code/earth/open/test1.py", line 118, in create_opensees_model
+    self._create_elements(n_stories, bay_length, config)
+  File "/project/c_gnn_001/code/earth/open/test1.py", line 177, in _create_elements
+    ops.element('nonlinearBeamColumn', element_id, node_i, node_j, 5, 1, 1)
+opensees.OpenSeesError: See stderr output
+Process 0 Terminating

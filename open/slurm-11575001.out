@@ -1,0 +1,26 @@
+WARNING: CTestNormDispIncr::test() - failed to converge 
+after: 6 iterations  current Norm: 3232.05 (max: 1e-08, Norm deltaR: 824.212)
+NewtonRaphson::solveCurrentStep() -the ConvergenceTest object failed in test()
+StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor 0.1
+OpenSees > analyze failed, returned: -3 error flag
+WARNING - the 'fullGenLapack' eigen solver is VERY SLOW. Consider using the default eigen solver.FullGenEigenSolver::solve() - the eigenvalue 1 is numerically undetermined or infinite
+==================================================
+RC BUILDING DATASET GENERATION
+==================================================
+Example 5-story building results:
+  n_stories: 5
+  bay_length: 6.1
+  T1: 4.68621368982162e-154
+  Sa_T1: 0.4
+  IDRmax: 0.002
+  total_height: 20.0
+  column_dimensions: 0.762x0.813
+  beam_dimensions: 0.610x0.813
+  column_rho: 0.021
+  beam_rho: 0.0108
+
+Graph representation:
+  Node features shape: (24, 5)
+  Edge index shape: (2, 70)
+  Edge features shape: (70, 4)
+Process 0 Terminating

@@ -1,0 +1,16 @@
+--2025-06-26 21:39:10--  https://we.tl/t-eaUcFInyeo?utm_campaign=TRN_TDL_05
+Resolving we.tl (we.tl)... 18.239.255.31, 18.239.255.50, 18.239.255.111, ...
+Connecting to we.tl (we.tl)|18.239.255.31|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://wetransfer.com/downloads/781c74f6ab859ff49f770f1e7991018b20250626191626/7cb5ad?t_exp=1751051786&t_lsid=b32e40db-8a97-48d4-a1d7-c6c6d36757dc&t_network=link&t_rid=Z29vZ2xlLW9hdXRoMnwxMDgyMTA3NTEyNjgwNDU5NTA1MTc=&t_s=download_link&t_ts=1750965402&utm_campaign=TRN_TDL_05 [following]
+--2025-06-26 21:39:10--  https://wetransfer.com/downloads/781c74f6ab859ff49f770f1e7991018b20250626191626/7cb5ad?t_exp=1751051786&t_lsid=b32e40db-8a97-48d4-a1d7-c6c6d36757dc&t_network=link&t_rid=Z29vZ2xlLW9hdXRoMnwxMDgyMTA3NTEyNjgwNDU5NTA1MTc=&t_s=download_link&t_ts=1750965402&utm_campaign=TRN_TDL_05
+Resolving wetransfer.com (wetransfer.com)... 18.239.255.10, 18.239.255.44, 18.239.255.65, ...
+Connecting to wetransfer.com (wetransfer.com)|18.239.255.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11833 (12K) [text/html]
+Saving to: ‘t-eaUcFInyeo?utm_campaign=TRN_TDL_05’
+
+t-eaUcFInyeo?utm_campaign=TRN_TDL_05                     0%[                                                                                                                            ]       0  --.-KB/s               t-eaUcFInyeo?utm_campaign=TRN_TDL_05                   100%[===========================================================================================================================>]  11.56K  --.-KB/s    in 0.002s  
+
+2025-06-26 21:39:11 (5.01 MB/s) - ‘t-eaUcFInyeo?utm_campaign=TRN_TDL_05’ saved [11833/11833]
+

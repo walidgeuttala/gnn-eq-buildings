@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/project/c_gnn_001/code/earth/open/test3.py", line 10, in <module>
+    from scipy.interpolate import interp1d
+ModuleNotFoundError: No module named 'scipy'
+Process 0 Terminating

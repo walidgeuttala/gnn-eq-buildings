@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "/project/c_gnn_001/code/earth/open/test1.py", line 3, in <module>
+    import pandas as pd
+  File "/project/c_gnn_001/conda_envs/earth/lib/python3.13/site-packages/pandas/__init__.py", line 49, in <module>
+    from pandas.core.api import (
+    ...<62 lines>...
+    )
+  File "/project/c_gnn_001/conda_envs/earth/lib/python3.13/site-packages/pandas/core/api.py", line 47, in <module>
+    from pandas.core.groupby import (
+    ...<2 lines>...
+    )
+  File "/project/c_gnn_001/conda_envs/earth/lib/python3.13/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+    ...<3 lines>...
+    )
+  File "/project/c_gnn_001/conda_envs/earth/lib/python3.13/site-packages/pandas/core/groupby/generic.py", line 68, in <module>
+    from pandas.core.frame import DataFrame
+  File "/project/c_gnn_001/conda_envs/earth/lib/python3.13/site-packages/pandas/core/frame.py", line 149, in <module>
+    from pandas.core.generic import (
+    ...<2 lines>...
+    )
+  File "/project/c_gnn_001/conda_envs/earth/lib/python3.13/site-packages/pandas/core/generic.py", line 193, in <module>
+    from pandas.core.window import (
+    ...<4 lines>...
+    )
+  File "/project/c_gnn_001/conda_envs/earth/lib/python3.13/site-packages/pandas/core/window/__init__.py", line 1, in <module>
+    from pandas.core.window.ewm import (
+    ...<2 lines>...
+    )
+  File "/project/c_gnn_001/conda_envs/earth/lib/python3.13/site-packages/pandas/core/window/ewm.py", line 11, in <module>
+    import pandas._libs.window.aggregations as window_aggregations
+ImportError: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /project/c_gnn_001/conda_envs/earth/lib/python3.13/site-packages/pandas/_libs/window/aggregations.cpython-313-x86_64-linux-gnu.so)
+Process 0 Terminating
